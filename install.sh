@@ -9,3 +9,6 @@
 
 # Setup oh-my-zsh shell
 ./oh-my-zsh.sh
+
+# Updates
+./update.sh
