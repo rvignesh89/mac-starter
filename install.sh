@@ -7,3 +7,5 @@
 # OSX default
 ./osx.sh
 
+# Setup oh-my-zsh shell
+./oh-my-zsh.sh
