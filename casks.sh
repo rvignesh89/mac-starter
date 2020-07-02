@@ -1,4 +1,5 @@
-declare -a arr=("google-chrome" "rectangle")
+echo "==> 🍻 Installing casks..."
+declare -a arr=("google-chrome" "rectangle" "steam" "iterm2" "visual-studio-code" "spotif"y)
 
 for cask in "${arr[@]}"
 do
