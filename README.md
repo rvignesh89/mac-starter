@@ -19,6 +19,7 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 5. Visual Studio Code
 6. Steam
 7. Spotify 
+8. Notion
 
 ## OSX Settings
 
@@ -27,5 +28,13 @@ I've changed the following behaviours in OSX
 1. Change tap to press - By default I need to press to press 🙄
 2. Show only active items in dock - I don't like clutter.
 3. Increase keyrepeat and delay keyrepeat delay - I assume most devs like it this way.
+
+# Mac App Store
+
+I'm using [mas-cli](https://github.com/mas-cli/mas) to automate installation for the following apps. This installation uses ids listed in `mas search <app>` command to ensure the correct app is installed. It also skips installation if the app is already present.
+
+1. iMovie
+
+---
 
 There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future.

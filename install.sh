@@ -1,11 +1,19 @@
+#!/bin/bash
+
+# Exit on error
+set -e 
+
 # Install Homebrew
-./brew.sh
+./homebrew.sh
 
 # Install casks
 ./casks.sh
 
 # OSX default
 ./osx.sh
+
+# Mac apps
+./apps.sh
 
 # Setup oh-my-zsh shell
 ./oh-my-zsh.sh
