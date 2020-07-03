@@ -37,4 +37,9 @@ I'm using [mas-cli](https://github.com/mas-cli/mas) to automate installation for
 
 ---
 
+## Future work.
+
+1. Automatically set Visual Studio Code preferences like spaces for tab and tab stops etc.
+2. Programming languages & frameworks like Python, Golang, .NET Core, Docker.
+
 There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future.
