@@ -15,6 +15,9 @@ set -e
 # Mac apps
 ./apps.sh
 
+# VS Code Stuff
+./vscode.sh
+
 # Setup oh-my-zsh shell
 ./oh-my-zsh.sh
 
