@@ -6,7 +6,7 @@ COLOR_RESET=`tput sgr0`
 echo "==> 🍻 Installing casks..."
 echo "${YELLOW_COLOR}WARNING: Some casks might require you to enter your password.${COLOR_RESET}"
 
-declare -a arr=("google-chrome" "rectangle" "steam" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus")
+declare -a arr=("google-chrome" "rectangle" "steam" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus" "microsoft-teams" "docker")
 
 for cask in "${arr[@]}"
 do
@@ -18,7 +18,8 @@ do
   sometimes. So if the following script says Zoom is installed but the application does not exist. 
   Run the following command to clean all previous installations of Zoom before re-running this script. 
 
-    brew cask uninstall zoomus${COLOR_RESET}\n"
+    brew cask uninstall zoomus${COLOR_RESET}
+  "
   fi
 
   if brew cask list | grep "$cask" &> /dev/null
