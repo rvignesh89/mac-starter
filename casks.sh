@@ -1,8 +1,26 @@
+#!/bin/bash
+
+YELLOW_COLOR=`tput setaf 3`
+COLOR_RESET=`tput sgr0`
+
 echo "==> 🍻 Installing casks..."
-declare -a arr=("google-chrome" "rectangle" "steam" "iterm2" "visual-studio-code" "spotify" "notion")
+echo "${YELLOW_COLOR}WARNING: Some casks might require you to enter your password.${COLOR_RESET}"
+
+declare -a arr=("google-chrome" "rectangle" "steam" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus")
 
 for cask in "${arr[@]}"
 do
+  if [ "${cask}" == "zoomus" ]
+  then
+    echo " 
+  ${YELLOW_COLOR}Something to note about Zoom. It installs parts of the app in the pre-install scripts. 
+  (https://twitter.com/c1truz_/status/1244737672930824193). This makes brew think that it is already installed 
+  sometimes. So if the following script says Zoom is installed but the application does not exist. 
+  Run the following command to clean all previous installations of Zoom before re-running this script. 
+
+    brew cask uninstall zoomus${COLOR_RESET}\n"
+  fi
+
   if brew cask list | grep "$cask" &> /dev/null
   then
     echo "$cask already installed... ✅"
