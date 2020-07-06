@@ -10,5 +10,5 @@ defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 2
 echo "Increase keyboard key repeat... ✅"
 
-defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-corner -int 13
 echo "Set bottom right as hot corner... ✅"

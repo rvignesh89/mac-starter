@@ -20,6 +20,13 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 6. Steam
 7. Spotify 
 8. Notion
+9. Microsoft Teams
+10. Zoom
+11. Team Viewer
+
+## Development Environment
+
+1. Docker
 
 ## OSX Settings
 
@@ -28,6 +35,7 @@ I've changed the following behaviours in OSX
 1. Change tap to press - By default I need to press to press 🙄
 2. Show only active items in dock - I don't like clutter.
 3. Increase keyrepeat and delay keyrepeat delay - I assume most devs like it this way.
+4. Add bottom right corner as hot corner for locking screen
 
 # Mac App Store
 
