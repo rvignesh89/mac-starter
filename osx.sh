@@ -13,6 +13,9 @@ echo "Increase keyboard key repeat... ✅"
 defaults write com.apple.dock wvous-br-corner -int 13
 echo "Set bottom right as hot corner... ✅"
 
+ln -s "~/Library/Mobile\ Documents/com\~apple\~CloudDocs" ~/icloud
+echo "Symlink iCloud folder to ~/icloud...✅"
+
 git config --global user.email "vignesh@rvignesh.io"
 git config --global user.name "Vignesh Rajasekaran"
 echo "Set git global email & name... ✅"
