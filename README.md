@@ -6,7 +6,9 @@ Recently I realised that I'm doing mundane things of re-installing applications 
 
 ## Goal
 
-I'd like to reach a state where after setup a new Macbook I just download script from Github and run it and go make a cup of coffee ☕️ and come back to see everything that I need ready.
+I'd like to reach a state where after setup a new Macbook I just download script from Github and run it and go make a cup of coffee ☕️ and come back to see everything that I need ready. It should look something like at the end.
+
+![Sample](./screenshots/sample.png)
 
 ## Software
 
