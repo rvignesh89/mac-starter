@@ -6,6 +6,9 @@ set -e
 # Install Homebrew
 ./homebrew.sh
 
+# Setup oh-my-zsh shell
+./oh-my-zsh.sh
+
 # Install casks
 ./casks.sh
 
@@ -17,9 +20,6 @@ set -e
 
 # VS Code Stuff
 ./vscode.sh
-
-# Setup oh-my-zsh shell
-./oh-my-zsh.sh
 
 # Updates
 ./update.sh

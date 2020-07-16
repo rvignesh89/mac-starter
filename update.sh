@@ -1,4 +1,4 @@
-read -p '==> ⬆️ Do you want to check for updates and install them? (y/N) ' $response
+read -p '==> ⬆️  Do you want to check for updates and install them? (y/N) ' $response
 
 if [ "$response" == "y" ]
 then
