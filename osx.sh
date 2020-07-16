@@ -27,8 +27,7 @@ then
     echo "SSH key file already exists... ✅"
 else
     ssh-keygen -t rsa -b 4096 -C "${email}" -q -N "" -f ~/.ssh/id_rsa
-    echo "
-Host *
+    echo "Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
