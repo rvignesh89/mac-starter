@@ -23,3 +23,6 @@ set -e
 
 # Updates
 ./update.sh
+
+# Dev Environment
+./dev.sh
