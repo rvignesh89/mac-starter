@@ -20,7 +20,16 @@ email="vignesh@rvignesh.io"
 
 git config --global user.email "${email}"
 git config --global user.name "Vignesh Rajasekaran"
-echo "Set git global email & name... ✅"
+git config --global pull.rebase true
+git config --global core.autocrlf input
+git config --global alias.br branch
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.unstage "reset HEAD --"
+git config --global alias.slog "log --pretty=oneline --abbrev-commit"
+git config --global alias.graph "log --all --oneline --graph --decorate"
+echo "Set git configurations... ✅"
 
 if find ~/.ssh/id_rsa &> /dev/null
 then
