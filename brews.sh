@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "==> ☕️ Installing brew..."
-declare -a arr=("mas" "docker")
+declare -a arr=("mas" "docker" "gradle" "jq")
 
 for br in "${arr[@]}"
 do

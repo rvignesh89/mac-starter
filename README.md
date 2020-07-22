@@ -30,6 +30,12 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 ## Development Environment
 
 - Docker
+- Java
+- gradle
+
+## Command Line
+
+- jq 
 
 ## OSX Settings
 
