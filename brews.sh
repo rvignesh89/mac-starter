@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "==> ☕️ Installing brew..."
+
 declare -a arr=("mas" "docker" "gradle" "jq")
 brews=$(brew list)
 

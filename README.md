@@ -28,12 +28,16 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 - Team Viewer
 - Onedrive
 - Yammer
+- IntelliJ
 
 ## Development Environment
 
 - Docker
 - Java
 - gradle
+- Oh-My-Zsh
+- SSH keys
+- nvm
 
 ## Command Line
 
@@ -58,7 +62,6 @@ I'm using [mas-cli](https://github.com/mas-cli/mas) to automate installation for
 
 ## Future work.
 
-- Automatically set Visual Studio Code preferences like spaces for tab and tab stops etc.
-- Programming languages & frameworks like Python, Golang, .NET Core, Docker.
+- Programming languages & frameworks like Python, Golang, .NET Core.
 
 There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future.
