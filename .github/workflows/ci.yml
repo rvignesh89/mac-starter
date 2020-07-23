@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # Run the install script
-      - name: Verify path & contents
-        run: pwd && ls -la
+      - name: Run script
+        run: ./install.sh
