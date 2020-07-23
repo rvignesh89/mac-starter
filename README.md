@@ -1,5 +1,7 @@
 # Mac Starter 
 
+![Tests](https://github.com/rvignesh89/mac-starter/workflows/Test/badge.svg)
+
 I usually love to tear down my laptop from time to time and re-install everything. I don't know why but I'd like to keep my setup clean and lean. And I find it easy to just start from scratch rather than figuring out what is installed and keep cleaning them. 
 
 Recently I realised that I'm doing mundane things of re-installing applications which was not fun. So I wanted to automate the whole process and this repository contains the scripts needed to do that.
