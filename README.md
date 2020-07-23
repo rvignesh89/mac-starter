@@ -34,6 +34,7 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 
 - Docker
 - Java
+- Go
 - gradle
 - Oh-My-Zsh
 - SSH keys
