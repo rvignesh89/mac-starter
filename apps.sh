@@ -3,9 +3,10 @@
 echo "==> 🍏 Install apps from Mac App Store"
 
 declare -A apps=( ["imovie"]="408981434" )
+apps=$(mas list)
 
 for name in "${(@k)apps}"; do
-  if mas list | grep -i "${name}" &> /dev/null
+  if echo ${apps} | grep -i "${name}" &> /dev/null
   then
     echo "${name} already installed... ✅"
   else

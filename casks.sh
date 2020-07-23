@@ -7,6 +7,7 @@ echo "==> 🍻 Installing casks..."
 echo "${YELLOW_COLOR}WARNING: Some casks might require you to enter your password.${COLOR_RESET}"
 
 declare -a arr=("google-chrome" "rectangle" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus" "microsoft-teams" "docker" "teamviewer" "onedrive" "yammer" "intellij-idea-ce" "java")
+casks=$(brew cask list)
 
 for cask in "${arr[@]}"
 do
@@ -22,7 +23,7 @@ do
   "
   fi
 
-  if brew cask list | grep "$cask" &> /dev/null
+  if echo ${casks} | grep "$cask" &> /dev/null
   then
     echo "$cask already installed... ✅"
   else

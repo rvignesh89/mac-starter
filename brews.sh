@@ -2,10 +2,11 @@
 
 echo "==> ☕️ Installing brew..."
 declare -a arr=("mas" "docker" "gradle" "jq")
+brews=$(brew list)
 
 for br in "${arr[@]}"
 do
-  if brew list | grep "${br}" &> /dev/null
+  if echo ${brews} | grep "${br}" &> /dev/null
   then
     echo "${br} already installed... ✅"
   else

@@ -21,8 +21,8 @@ set -e
 # VS Code Stuff
 ./vscode.sh
 
-# Updates
-./update.sh
-
 # Dev Environment
 ./dev.sh
+
+# Updates
+./update.sh
