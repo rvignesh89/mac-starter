@@ -23,6 +23,7 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 - Visual Studio Code
 - Spotify 
 - Notion
+- Slack
 - Microsoft Teams
 - Zoom
 - Team Viewer
