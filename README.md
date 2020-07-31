@@ -29,21 +29,25 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 - Team Viewer
 - Onedrive
 - Yammer
-- IntelliJ
+- IntelliJ Ultimate
 
 ## Development Environment
 
 - Docker
 - Java
-- Go
+- Go@1.14
 - gradle
 - Oh-My-Zsh
 - SSH keys
 - nvm
+- CockroachDB
+- Postman
 
 ## Command Line
 
 - jq 
+- tree
+
 
 ## OSX Settings
 
@@ -64,6 +68,6 @@ I'm using [mas-cli](https://github.com/mas-cli/mas) to automate installation for
 
 ## Future work.
 
-- Programming languages & frameworks like Python, Golang, .NET Core.
+- Programming languages & frameworks like Python, .NET Core based on necessity. Also configurations of tools & apps like vimrc files and IntelliJ configuration files.
 
 There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future.
