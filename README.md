@@ -35,6 +35,7 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 
 - Docker
 - Java
+- dotnet
 - Go@1.14
 - gradle
 - Oh-My-Zsh
