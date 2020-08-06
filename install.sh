@@ -16,7 +16,7 @@ set -e
 ./osx.sh
 
 # Mac apps
-./apps.sh
+./app-store.sh
 
 # VS Code Stuff
 ./vscode.sh
