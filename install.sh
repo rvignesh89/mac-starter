@@ -26,3 +26,6 @@ set -e
 
 # Updates
 ./update.sh
+
+# AWS CLI
+./aws-cli.sh
