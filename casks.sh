@@ -6,7 +6,7 @@ COLOR_RESET=`tput sgr0`
 echo "==> 🍻 Installing casks..."
 echo "${YELLOW_COLOR}WARNING: Some casks might require you to enter your password.${COLOR_RESET}"
 
-declare -a arr=("google-chrome" "rectangle" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus" "slack" "microsoft-teams" "docker" "teamviewer" "onedrive" "yammer" "intellij-idea" "java" "dotnet" "dotnet-sdk" "postman")
+declare -a arr=("google-chrome" "rectangle" "iterm2" "visual-studio-code" "spotify" "notion" "zoomus" "slack" "microsoft-teams" "docker" "teamviewer" "onedrive" "yammer" "intellij-idea" "android-studio" "webstorm" "java" "dotnet" "dotnet-sdk" "postman")
 casks=$(brew cask list)
 
 for cask in "${arr[@]}"
