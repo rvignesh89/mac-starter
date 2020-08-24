@@ -6,4 +6,4 @@ curl -L -O https://github.com/rvignesh89/mac-starter/releases/download/0.0.1/mac
 
 unzip ~/.mac-starter/mac-starter.zip 
 
-sudo ~/.mac-starter/bootstrap.sh
+~/.mac-starter/bootstrap.sh
