@@ -3,9 +3,7 @@ on: [push]
 
 jobs:
   build:
-    # Job name is Greeting
     name: Test
-    # This job runs on Linux
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2

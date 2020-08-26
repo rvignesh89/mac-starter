@@ -12,6 +12,22 @@ I'd like to reach a state where after setup a new Macbook I just download script
 
 ![Sample](./screenshots/sample.png)
 
+## Installation
+
+There are a couple of ways to install the apps. 
+
+### Using install.sh 
+
+For this to work all you need to do is run the following command which takes care of pulling the latest version of this repository and installing from there. 
+
+```bash
+curl -o- https://raw.githubusercontent.com/rvignesh/mac-starter/v0.1.1/install.sh | bash
+```
+
+### Cloning the repo
+
+Just clone this repo and install what you need. This way you have more control on what exactly you want to install.
+
 ## Software
 
 I use my Mac mainly for development and playing some games on Steam. So it's going to be minimal setup with contains the following softwares.
@@ -35,7 +51,7 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 
 - Docker
 - Java
-- dotnet`
+- dotnet
 - Go@1.14
 - gradle
 - Oh-My-Zsh
@@ -48,7 +64,6 @@ I use my Mac mainly for development and playing some games on Steam. So it's goi
 
 - jq 
 - tree
-
 
 ## OSX Settings
 
@@ -64,11 +79,16 @@ I've changed the following behaviours in OSX
 I'm using [mas-cli](https://github.com/mas-cli/mas) to automate installation for the following apps. This installation uses ids listed in `mas search <app>` command to ensure the correct app is installed. It also skips installation if the app is already present.
 
 - iMovie
+- xcode
 
 ---
 
+## Testing
+
+For the moment testing involves running the `bootstrap.sh` in mac-os using Github Actions. If the script runs without any issues most of the installation should work. But I have noticed that app store apps won't be installed because that requires you to have logged in to App Store before hand which I'm sure is not availabl on Github actions. 
+
+For now this feels enough.
+
 ## Future work.
 
-- Programming languages & frameworks like Python, .NET Core based on necessity. Also configurations of tools & apps like vimrc files and IntelliJ configuration files.
-
-There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future.
+There is some level of automation which might be possible but I've not attempted to do it, like extensions in Chrome. Maybe something that I might attempt sometime in the future. 
